@@ -13,7 +13,6 @@ By the end of this lesson, you should be able to:
 - open a project in VS Code
 - run a Python file from the terminal
 - connect to a SQLite database with Python
-
 ## Why this matters
 
 You need a clear mental model of how Python, SQLite, files, and VS Code fit together before you can write useful database programs.
