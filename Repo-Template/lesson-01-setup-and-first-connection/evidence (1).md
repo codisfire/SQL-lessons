@@ -1,8 +1,10 @@
 # Lesson 01 Evidence Pro-Forma
 
 ## Commit evidence (minimum 2)
-- Commit 1 hash + message: ![Hash + Message](commit1.png)
-- Commit 2 hash + message: ![Hash + Message](commit2.png)
+- Commit 1 hash + message: 
+![Hash + Message](commit1.png)
+- Commit 2 hash + message: 
+![Hash + Message](commit2.png)
 - Optional Commit 3 hash + message:
 
 ## Run evidence
