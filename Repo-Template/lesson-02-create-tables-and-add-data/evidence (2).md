@@ -4,6 +4,8 @@
 - Commit 1 hash + message:<br>   75c92f891335e6da53f42386b7ddb9d6d62035c3  
 finished fixing the errors in the code, completed the theory questions
 - Commit 2 hash + message:
+360710069cb92ebd65c035be77919fa345fd9df5 <br>
+i finished lesson two, completed the quality checklist and put in the commit evidence
 - Optional Commit 3 hash + message:
 
 ## Run evidence
