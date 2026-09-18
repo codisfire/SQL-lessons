@@ -1,5 +1,3 @@
-"""Lesson 3: Query students with SELECT and print the results."""
-
 import sqlite3
 
 connection = sqlite3.connect("school.db")

@@ -20,7 +20,7 @@ cursor.execute("DELETE FROM students")
 
 # Insert rows using placeholders (?) to safely pass Python values.
 cursor.execute("INSERT INTO students (name, year_group, favorite_subject) VALUES (?, ?, ?)", ("Ava", 10, "PDPHE"))
-cursor.execute("INSERT INTO students (name, year_group, favorite_subject) VALUES (?, ?, ?)", ("Leo", 10, "Math"))
+cursor.execute("INSERT INTO students (name, year_group, favorite_subject) VALUES (?, ?, ?)", ("Leo", 11, "Math"))
 cursor.execute("INSERT INTO students (name, year_group, favorite_subject) VALUES (?, ?, ?)", ("John", 12, "History"))
 # commit saves all changes made by INSERT/DELETE/CREATE statements
 connection.commit()

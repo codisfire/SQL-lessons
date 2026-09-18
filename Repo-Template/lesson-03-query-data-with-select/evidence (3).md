@@ -3,7 +3,8 @@
 ## Commit evidence (minimum 2)
 - Commit 1 hash + message: af18bd1fafe14cdd583c4466bbc523730c875b79 <br>
 started lesson 3, created the file
-- Commit 2 hash + message:
+- Commit 2 hash + message: e55e74c3fdd5dbc19087af2bf6d7500145b1cfb7 <br>
+finished code + theory questions for lesson 3, and quality checklist
 - Optional Commit 3 hash + message:
 
 ## Run evidence
