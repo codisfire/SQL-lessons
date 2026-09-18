@@ -5,7 +5,8 @@
 created new file for lesson 4
 - Commit 2 hash + message: 22336bef29c2294876ab1e661b04b637c7fe816c <br>
 i've finished the coding and practical question in lesson 4, will move onto the theory questions next
-- Optional Commit 3 hash + message:
+- Optional Commit 3 hash + message: 1fe8b72fe1a8782f197d2235a0f7a006274189de
+I finished lesson 4; completed the theory questions, and the quality checklist
 
 ## Run evidence
 - Command run: python Repo-Template/lesson-04-filter-sort-summarize/lesson4_filter.py
