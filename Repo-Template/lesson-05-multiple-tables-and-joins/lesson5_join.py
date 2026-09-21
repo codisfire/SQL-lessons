@@ -30,4 +30,36 @@ cursor.execute(
     "INSERT INTO students (name, year_group) VALUES (?, ?)",
     ("Ava", 10)
 )
+ava_id = cursor.lastrowid
 
+cursor.execute(
+    "INSERT INTO students (name, year_group) VALUES (?, ?)",
+    ("Leo", 11)
+)
+leo_id = cursor.lastrowid
+
+#use lastrowid values so each coursel inks to the correct student row
+cursor.execute(
+    "INSERT INTO courses (course_name, student_id) VALUES (?, ?)",
+    ("Science Club", ava_id)
+)
+cursor.execute(
+    "INSERT INTO courses (course_name, student_id) VALUES (?, ?)",
+    ("Math Team", leo_id)
+)
+
+# JOIN combines student names with their matching course names
+cursor.execute("""
+SELECT students.name, courses.course_name
+FROM students
+JOIN courses ON students.id = courses.student_id
+""")
+
+rows = cursor.fetchall()
+for row in rows:
+    print(row)
+
+
+# Save table changes before closing the database
+connection.commit()
+connection.close()
