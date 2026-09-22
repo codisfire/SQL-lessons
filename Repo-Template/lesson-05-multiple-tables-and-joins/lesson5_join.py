@@ -45,9 +45,12 @@ cursor.execute(
 )
 cursor.execute(
     "INSERT INTO courses (course_name, student_id) VALUES (?, ?)",
-    ("Math Team", leo_id)
+    ("Software Team", leo_id)
 )
-
+cursor.execute(
+    "INSERT INTO courses (course_name, student_id) VALUES (?, ?)",
+    ("Chess Team", leo_id)
+)
 # JOIN combines student names with their matching course names
 cursor.execute("""
 SELECT students.name, courses.course_name
