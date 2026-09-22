@@ -5,7 +5,8 @@
 started to write the code for lesson 5, put in the 3rd hash and commit message for lesson 4
 - Commit 2 hash + message:e88a8e29da5a628d8bd6bcdd0916d02d761e8628 <br>
 i finished writing the code in, and im planning to do the practical questions, theory questions, and quality checklist next lesson
-- Optional Commit 3 hash + message: 
+- Optional Commit 3 hash + message: 21fcf0552635264ddb702f3fafffebe8702d8502 <br> 
+i finished everything at lesson 3
 
 ## Run evidence
 - Command run: python Repo-Template/lesson-05-multiple-tables-and-joins/lesson5_join.py
